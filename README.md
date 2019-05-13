@@ -9,8 +9,6 @@ article inspiré de mon site web : [e-real.fr](https://www.e-real.fr)
 
 ##### 1_Le vocabulaire de la POO
 
-##### 2_Le concept de la POO
-
 ##### 3_L'Oblet Vs Le Procédural
 
 ### 1\_ Le vocabulaire de la POO
@@ -38,3 +36,9 @@ On peut aussi déclarer une méthode comme étant abstraite, dans ce cas, toutes
 
 **Interfaces**
 Une interface est une classe complètement abstraite. Elles sont différentes de l’héritage car elles ne représentent pas un sous-ensemble, elles décrivent un comportement à un objet. Ainsi, il est logique que des classes voiture et moto héritent d’une classe véhicule, mais pas la classe son. En revanche toutes ces classes peuvent implémenter l’interface vitesse, car voiture comme moto ou son, ont une vitesse de déplacement.
+
+### 3_L'Oblet Vs Le Procédural
+Dans un programme traditionnel orienté procédure, vous commencez le processus par le haut, avec le programme principal.
+Dans la programmation orientée objet, il n'y a pas de "top". Vous trouvez d'abord les classes, puis vous ajoutez des méthodes à chaque classe. (Une règle empirique simple pour identifier les classes consiste à rechercher les noms dans l'analyse du problème. Les méthodes, en revanche, correspondent à des verbes).
+
+Dans la programmation orientée objet, les structures de données passent en premier, les algorithmes passent en second.

@@ -14,3 +14,9 @@ article inspiré de mon site web : [e-real.fr](https://www.e-real.fr)
 ##### 3_L'Oblet Vs Le Procédural
 
 ### 1\_ Le vocabulaire de la POO
+
+Le terme le plus important est la **class**. Une class est le modèle ou le patron à partir duquel l'objet est fabriqué.
+Lorsque vous créez un objet à partir d'une classe, on dit qu'on crée une instance de la classe.
+`Car mercedesClassA = new Car() ; `//crée une nouvelle instance de la classe Car.
+Objet : mercedesClassA 
+Class : Car

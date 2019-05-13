@@ -15,7 +15,6 @@ article inspiré de mon site web : [e-real.fr](https://www.e-real.fr)
 
 ### 1\_ Le vocabulaire de la POO
 
-
 Le terme le plus important est la **class**. Une class est le modèle ou le patron à partir duquel l'objet est fabriqué.
 Lorsque vous créez un objet à partir d'une classe, on dit qu'on crée une instance de la classe.
 
@@ -25,15 +24,17 @@ On crée une nouvelle instance de la class Car.
 Objet : mercedesClassA
 Class : Car
 
-
 **Héritage**
-Une caractéristique importante des langages orientés objet est l'héritage. Héritage fait référence à la possibilité de définir une nouvelle classe d'objets qui hérite d'une classe parente. De nouveaux éléments de données et méthodes peuvent être ajoutés à la nouvelle classe, mais les éléments de données et méthodes de la classe parente sont disponibles pour les objets de la nouvelle classe sans réécriture de leurs déclarations.
+Une caractéristique importante des langages orientés objet est l'héritage. Héritage fait référence à la possibilité de définir une nouvelle classe d'objets qui hérite d'une classe parente. Une classe fille hérite de toutes les méthodes et attributs de la classe mère. Cependant elle ne peut pas utiliser les attributs et méthodes en private. Elle devra donc utiliser les setters et getters correspondants.
 
 **abstrait**
 Un mot clé du langage de programmation Java (TM) utilisé dans une définition de classe pour spécifier qu'une classe ne doit pas être instanciée, mais plutôt héritée par d'autres classes. Une classe abstraite peut avoir des méthodes abstraites qui ne sont pas implémentées dans la classe abstraite, mais dans des sous-classes.
 
 **classe abstraite**
-Une classe qui contient une ou plusieurs méthodes abstraites et ne peut donc jamais être instanciée. Les classes abstraites sont définies afin que d'autres classes puissent les étendre et les concrétiser en implémentant les méthodes abstraites.
+On peut créer des classes abstraites pour empêcher de les instancier. Ces classes ne devront servir que dans le cadre d’un héritage.
 
 **méthode abstraite**
-Une méthode qui n'a aucune implémentation.
+On peut aussi déclarer une méthode comme étant abstraite, dans ce cas, toutes les classes filles devront la réécrire. Ceci vise à forcer les classes filles à écrire une méthode donnée. Cependant, on n’inscrira aucune instruction dans la méthode de la classe mère.
+
+**Interfaces**
+Une interface est une classe complètement abstraite. Elles sont différentes de l’héritage car elles ne représentent pas un sous-ensemble, elles décrivent un comportement à un objet. Ainsi, il est logique que des classes voiture et moto héritent d’une classe véhicule, mais pas la classe son. En revanche toutes ces classes peuvent implémenter l’interface vitesse, car voiture comme moto ou son, ont une vitesse de déplacement.

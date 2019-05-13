@@ -7,10 +7,6 @@ Une solution pour fabriquer cette voiture consiste à diviser le travail en équ
 Cela semble évident! et bien la programmation orienté permet en autre de travailler de cette façons !
 article inspiré de mon site web : [e-real.fr](https://www.e-real.fr)
 
-##### 1_Le vocabulaire de la POO
-
-##### 3_L'Oblet Vs Le Procédural
-
 ### 1\_ Le vocabulaire de la POO
 
 Le terme le plus important est la **class**. Une class est le modèle ou le patron à partir duquel l'objet est fabriqué.
@@ -37,7 +33,17 @@ On peut aussi déclarer une méthode comme étant abstraite, dans ce cas, toutes
 **Interfaces**
 Une interface est une classe complètement abstraite. Elles sont différentes de l’héritage car elles ne représentent pas un sous-ensemble, elles décrivent un comportement à un objet. Ainsi, il est logique que des classes voiture et moto héritent d’une classe véhicule, mais pas la classe son. En revanche toutes ces classes peuvent implémenter l’interface vitesse, car voiture comme moto ou son, ont une vitesse de déplacement.
 
-### 3_L'Oblet Vs Le Procédural
+**Les getters et les Setters**
+Les getters et les Setters sont respéctivement des accésseurs en lecture et en écriture.
+get pour lire : accéder aux valeurs des variables d'instance
+set pour alterer modifier les valeurs de variables d'instance
+
+**Les constructors**
+Un constructor est une méthode spéciale utilisée pour initialiser des objets. Le constructor est appelé lorsqu'un objet d'une class est créé. Il peut être utilisé pour définir les valeurs initiales des attributs d'objet:
+Notez que le nom du constructeur doit correspondre au nom de la class. Toutes les class ont des constructeurs par défaut: si vous ne créez pas vous-même de constructeur de class, Java en crée un pour vous. Cependant, vous ne pouvez pas définir de valeurs initiales pour les attributs d'objet.
+
+### 2_L'Oblet Vs Le Procédural
+
 Dans un programme traditionnel orienté procédure, vous commencez le processus par le haut, avec le programme principal.
 Dans la programmation orientée objet, il n'y a pas de "top". Vous trouvez d'abord les classes, puis vous ajoutez des méthodes à chaque classe. (Une règle empirique simple pour identifier les classes consiste à rechercher les noms dans l'analyse du problème. Les méthodes, en revanche, correspondent à des verbes).
 

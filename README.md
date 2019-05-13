@@ -28,3 +28,12 @@ Class : Car
 
 **Héritage**
 Une caractéristique importante des langages orientés objet est l'héritage. Héritage fait référence à la possibilité de définir une nouvelle classe d'objets qui hérite d'une classe parente. De nouveaux éléments de données et méthodes peuvent être ajoutés à la nouvelle classe, mais les éléments de données et méthodes de la classe parente sont disponibles pour les objets de la nouvelle classe sans réécriture de leurs déclarations.
+
+**abstrait**
+Un mot clé du langage de programmation Java (TM) utilisé dans une définition de classe pour spécifier qu'une classe ne doit pas être instanciée, mais plutôt héritée par d'autres classes. Une classe abstraite peut avoir des méthodes abstraites qui ne sont pas implémentées dans la classe abstraite, mais dans des sous-classes.
+
+**classe abstraite**
+Une classe qui contient une ou plusieurs méthodes abstraites et ne peut donc jamais être instanciée. Les classes abstraites sont définies afin que d'autres classes puissent les étendre et les concrétiser en implémentant les méthodes abstraites.
+
+**méthode abstraite**
+Une méthode qui n'a aucune implémentation.

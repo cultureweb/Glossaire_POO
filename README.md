@@ -61,6 +61,8 @@ Il faut imperativement l´appeler par sa classe et non par l´objet
 ´´´
 System.our.println(Personne.nombreTotalDePersonnes);
 ´´´
+**Une variable constante**
+Une variable constante est une variable dont la valeur ne peut etre modifiée.
 
 ### 2_L'Oblet Vs Le Procédural
 

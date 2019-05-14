@@ -70,11 +70,10 @@ Une variable constante est une variable dont la valeur ne peut etre modifiée.
 **Les Exceptions**
 Java utilise des exceptions pour traiter les événements pouvant survenir lors de certaines opérations. Lorsque l’on utilise de telles opérations il est impératif de prendre en compte la récupération et le traitement des éventuelles exceptions.
 
-**Le transtypage(cast en anglais) et le polymorphisme**
-Le transtypage (conversion de type ou cast en anglais) consiste à modifier le type d'une variable ou d'une expression. 
+**Le transtypage et le polymorphisme**
+Le transtypage (conversion de type ou **cast en anglais**) consiste à modifier le type d'une variable ou d'une expression. 
 Il existe deux types de transtypages: **le transtypage implicite** et **le transtypage explicite**.
-Il est possible de convertir un objet d'une classe en un objet d'une autre classe si les classes ont un lien d'héritage (encore une fois, on utilise le mot objet par abus de langage : ce sont les références aux objets et non les objets eux-mêmes qui sont transtypés).
-Le transtypage d'un objet dans le sens fille -> mère est implicite.
+Il est possible de convertir un objet d'une classe en un objet d'une autre classe si les classes ont un lien d'héritage (encore une fois, on utilise le mot objet par abus de langage : ce sont les références aux objets et non les objets eux-mêmes qui sont transtypés). Le transtypage d'un objet dans le sens fille -> mère est implicite.
 En revanche, le transtypage dans le sens mère -> fille doit être explicite et n'est pas toujours possible.
 
 ### 2_L'Oblet Vs Le Procédural

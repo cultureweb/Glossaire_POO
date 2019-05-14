@@ -38,9 +38,29 @@ Les getters et les Setters sont respéctivement des accésseurs en lecture et en
 get pour lire : accéder aux valeurs des variables d'instance
 set pour alterer modifier les valeurs de variables d'instance
 
-**Les constructors**
-Un constructor est une méthode spéciale utilisée pour initialiser des objets. Le constructor est appelé lorsqu'un objet d'une class est créé. Il peut être utilisé pour définir les valeurs initiales des attributs d'objet:
+**Les constructeurs**
+Un constructeur est une méthode spéciale utilisée pour initialiser des objets. Le constructeurr est appelé lorsqu'un objet d'une class est créé. Il peut être utilisé pour définir les valeurs initiales des attributs d'objet:
 Notez que le nom du constructeur doit correspondre au nom de la class. Toutes les class ont des constructeurs par défaut: si vous ne créez pas vous-même de constructeur de class, Java en crée un pour vous. Cependant, vous ne pouvez pas définir de valeurs initiales pour les attributs d'objet.
+
+**Une Variable d´instance**
+c´est une variable qui est specifique a un objet, on ne peut l´utiliser que sur un objet.
+´´´
+Public Class Personne {
+  private Sring nom;
+  private int age;
+´´´
+
+**Une variable de class** 
+Une variable de class n´est creer qu´une seule fois et sera partage par l'ensemble des objets. Cela peut etre utile pour récuperer le nombre d´objet creer par exemple.
+´´´
+Public Class Personne {
+  public static int nombreTotalDePersonnes = 0;
+ 
+´´´
+Il faut imperativement l´appeler par sa classe et non par l´objet
+´´´
+System.our.println(Personne.nombreTotalDePersonnes);
+´´´
 
 ### 2_L'Oblet Vs Le Procédural
 

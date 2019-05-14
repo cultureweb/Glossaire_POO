@@ -27,8 +27,11 @@ Un mot clé du langage de programmation Java (TM) utilisé dans une définition 
 **classe abstraite**
 On peut créer des classes abstraites pour empêcher de les instancier. Ces classes ne devront servir que dans le cadre d’un héritage.
 
-**méthode abstraite**
+**Méthode abstraite**
 On peut aussi déclarer une méthode comme étant abstraite, dans ce cas, toutes les classes filles devront la réécrire. Ceci vise à forcer les classes filles à écrire une méthode donnée. Cependant, on n’inscrira aucune instruction dans la méthode de la classe mère.
+
+**Méthode surchargée**
+Lorsqu'on définit une classe, on peut y définir plusieurs méthodes qui portent le même nom. La seule contrainte est que la liste des types des paramètres formels doit être différente. Ce mécanisme est appelé surcharge de méthode.
 
 **Interfaces**
 Une interface est une classe complètement abstraite. Elles sont différentes de l’héritage car elles ne représentent pas un sous-ensemble, elles décrivent un comportement à un objet. Ainsi, il est logique que des classes voiture et moto héritent d’une classe véhicule, mais pas la classe son. En revanche toutes ces classes peuvent implémenter l’interface vitesse, car voiture comme moto ou son, ont une vitesse de déplacement.

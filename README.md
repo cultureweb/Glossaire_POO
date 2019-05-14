@@ -47,23 +47,23 @@ Notez que le nom du constructeur doit correspondre au nom de la class. Toutes le
 
 **Une Variable d´instance**
 c´est une variable qui est specifique a un objet, on ne peut l´utiliser que sur un objet.
-´´´
+```
 Public Class Personne {
   private Sring nom;
   private int age;
-´´´
+```
 
 **Une variable de class** 
 Une variable de class n´est creer qu´une seule fois et sera partage par l'ensemble des objets. Cela peut etre utile pour récuperer le nombre d´objet creer par exemple.
-´´´
+```
 Public Class Personne {
   public static int nombreTotalDePersonnes = 0;
  
-´´´
+```
 Il faut imperativement l´appeler par sa classe et non par l´objet
-´´´
+```
 System.our.println(Personne.nombreTotalDePersonnes);
-´´´
+```
 **Une variable constante**
 Une variable constante est une variable dont la valeur ne peut etre modifiée.
 

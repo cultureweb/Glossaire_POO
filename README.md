@@ -85,9 +85,6 @@ List<Car> cars = new ArrayList<>(); // Create an ArrayList object
 ```
 `add()` //permet d'ajouter un élément ;`get(int index)` //retourne l'élément à l'indice demandé ;`remove(int index)` //efface l'entrée à l'indice demandé ;`isEmpty()`// renvoie « vrai » si l'objet est vide ;`removeAll()` //efface tout le contenu de l'objet ;`contains(Object element)` //retourne « vrai » si l'élément passé en paramètre est dans l'ArrayList;`.size()` //permets de connaitre la longuer de l'arrayList comme .length dans d'autres languages.
 
-**Les exeptions**
-// TODOS 
-
 ### 2_L'Oblet Vs Le Procédural
 
 Dans un programme traditionnel orienté procédure, vous commencez le processus par le haut, avec le programme principal.

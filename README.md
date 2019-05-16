@@ -76,6 +76,18 @@ Il existe deux types de transtypages: **le transtypage implicite** et **le trans
 Il est possible de convertir un objet d'une classe en un objet d'une autre classe si les classes ont un lien d'héritage (encore une fois, on utilise le mot objet par abus de langage : ce sont les références aux objets et non les objets eux-mêmes qui sont transtypés). Le transtypage d'un objet dans le sens fille -> mère est implicite.
 En revanche, le transtypage dans le sens mère -> fille doit être explicite et n'est pas toujours possible.
 
+**Java ArrayList ou Collections d'Objets**
+En Java la taille d'un tableau ne peut pas être modifiée d'où l'importance du arrayList : les éléments peuvent être ajoutés et supprimés à tout moment. La syntaxe est également légèrement différente:
+```
+import java.util.ArrayList; // import the ArrayList class
+
+List<Car> cars = new ArrayList<>(); // Create an ArrayList object
+```
+`add()` //permet d'ajouter un élément ;`get(int index)` //retourne l'élément à l'indice demandé ;`remove(int index)` //efface l'entrée à l'indice demandé ;`isEmpty()`// renvoie « vrai » si l'objet est vide ;`removeAll()` //efface tout le contenu de l'objet ;`contains(Object element)` //retourne « vrai » si l'élément passé en paramètre est dans l'ArrayList;`.size()` //permets de connaitre la longuer de l'arrayList comme .length dans d'autres languages.
+
+**Les exeptions**
+// TODOS 
+
 ### 2_L'Oblet Vs Le Procédural
 
 Dans un programme traditionnel orienté procédure, vous commencez le processus par le haut, avec le programme principal.

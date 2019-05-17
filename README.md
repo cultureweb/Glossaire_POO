@@ -18,6 +18,12 @@ On crée une nouvelle instance de la class Car.
 Objet : mercedesClassA
 Class : Car
 
+**JDK**
+Le Java Development Kit désigne un ensemble de bibliothèques logicielles de base du langage de programmation Java, ainsi que les outils avec lesquels le code Java peut être compilé
+
+**JRE**
+JRE est un sigle, qui signifie : Java Runtime Environment, une famille de logiciels qui permet l'exécution des programmes écrits en langage de programmation 
+
 **Héritage**
 Une caractéristique importante des langages orientés objet est l'héritage. Héritage fait référence à la possibilité de définir une nouvelle classe d'objets qui hérite d'une classe parente. Une classe fille hérite de toutes les méthodes et attributs de la classe mère. Cependant elle ne peut pas utiliser les attributs et méthodes en private. Elle devra donc utiliser les setters et getters correspondants.
 
